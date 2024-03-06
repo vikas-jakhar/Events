@@ -259,6 +259,7 @@
     padding-top: 50px;
 }
 
+
 .lorem-2 {
     font-size: 14px;
     color: #FFFFFF;
@@ -348,6 +349,22 @@
     font-size: 14px;
 }
 
+.mt-50 {
+    margin-top: 50px;
+}
+
+.menu {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: transparent;
+    width: 100%;
+}
+
+.pd-top-70 {
+    padding-top: 70px;
+}
+
 @media (min-width:576px) {
     .col-sm-6 {
         width: 50%;
@@ -425,6 +442,14 @@
         background-color: rgb(113, 179, 237);
         transition: 0.3s;
     }
+
+.menu {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
 
     .menulist.show {
         left: 0%;
