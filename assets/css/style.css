@@ -202,7 +202,7 @@
 
 .card-box:hover {
     box-shadow: 0px 8px 35px 0px #0000001A;
-    border: none;
+    border: 1px solid transparent;
 
     .img-1 {
         border-radius: 0px;
@@ -443,13 +443,13 @@
         transition: 0.3s;
     }
 
-.menu {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-}
+    .menu {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+    }
 
     .menulist.show {
         left: 0%;
